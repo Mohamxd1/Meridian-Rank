@@ -1,0 +1,117 @@
+{
+  "four_node_pagerank": [
+    0.37252685134374447,
+    0.19582391180279146,
+    0.3941492368534641,
+    0.03750000000000001
+  ],
+  "eigenvector_max_error": 1.5310197554185834e-11,
+  "iterations_d0.5": 28,
+  "iterations_d0.7": 53,
+  "iterations_d0.85": 111,
+  "iterations_d0.95": 303,
+  "convergence_rounds": {
+    "ring10": 5,
+    "ring20": 10,
+    "leaf_spine_2_4_4": 4,
+    "leaf_spine_4_8_4": 4
+  },
+  "illustrative_infrastructure": [
+    {
+      "node": "api",
+      "components": 6,
+      "unreachable_pairs": 55,
+      "avg_path_stretch": 1.0,
+      "max_utilization_change": 0.0,
+      "pagerank_shift": 0.7457676508470914
+    },
+    {
+      "node": "worker",
+      "components": 4,
+      "unreachable_pairs": 38,
+      "avg_path_stretch": 1.0,
+      "max_utilization_change": 0.0,
+      "pagerank_shift": 0.5722642167561193
+    },
+    {
+      "node": "cloudflare",
+      "components": 2,
+      "unreachable_pairs": 21,
+      "avg_path_stretch": 1.0,
+      "max_utilization_change": 0.0,
+      "pagerank_shift": 0.2451590003700517
+    },
+    {
+      "node": "client",
+      "components": 1,
+      "unreachable_pairs": 11,
+      "avg_path_stretch": 1.0,
+      "max_utilization_change": 0.0,
+      "pagerank_shift": 0.17479480296315428
+    },
+    {
+      "node": "postgres",
+      "components": 1,
+      "unreachable_pairs": 11,
+      "avg_path_stretch": 1.0,
+      "max_utilization_change": 0.0,
+      "pagerank_shift": 0.16489384495301013
+    },
+    {
+      "node": "anthropic",
+      "components": 1,
+      "unreachable_pairs": 11,
+      "avg_path_stretch": 1.0,
+      "max_utilization_change": 0.0,
+      "pagerank_shift": 0.1400108769277454
+    },
+    {
+      "node": "openai",
+      "components": 1,
+      "unreachable_pairs": 11,
+      "avg_path_stretch": 1.0,
+      "max_utilization_change": 0.0,
+      "pagerank_shift": 0.1400108769277454
+    },
+    {
+      "node": "r2",
+      "components": 1,
+      "unreachable_pairs": 11,
+      "avg_path_stretch": 1.0,
+      "max_utilization_change": 0.0,
+      "pagerank_shift": 0.1400108769277454
+    },
+    {
+      "node": "redis",
+      "components": 1,
+      "unreachable_pairs": 11,
+      "avg_path_stretch": 1.0,
+      "max_utilization_change": 0.0,
+      "pagerank_shift": 0.12526017405340384
+    },
+    {
+      "node": "resend",
+      "components": 1,
+      "unreachable_pairs": 11,
+      "avg_path_stretch": 1.0,
+      "max_utilization_change": 0.0,
+      "pagerank_shift": 0.12526017405340384
+    },
+    {
+      "node": "sentry",
+      "components": 1,
+      "unreachable_pairs": 11,
+      "avg_path_stretch": 1.0,
+      "max_utilization_change": 0.0,
+      "pagerank_shift": 0.12526017405340384
+    },
+    {
+      "node": "stripe",
+      "components": 1,
+      "unreachable_pairs": 11,
+      "avg_path_stretch": 1.0,
+      "max_utilization_change": 0.0,
+      "pagerank_shift": 0.12526017405340384
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+dataset,normal,odd,true_positive,false_positive,precision,recall,threshold
+synthetic_heldout_rank3,200,10,10,3,0.7692307692307693,1.0,0.05761925355054

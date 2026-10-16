@@ -1,0 +1,144 @@
+{
+  "documents": [
+    {
+      "id": "chips-0",
+      "text": "semiconductor fabrication silicon chip",
+      "citations": [
+        "chips-1"
+      ]
+    },
+    {
+      "id": "chips-1",
+      "text": "supplier disruption manufacturing capacity",
+      "citations": [
+        "chips-2"
+      ]
+    },
+    {
+      "id": "chips-2",
+      "text": "processor design transistor lithography",
+      "citations": [
+        "chips-3"
+      ]
+    },
+    {
+      "id": "chips-3",
+      "text": "foundry production wafer equipment",
+      "citations": [
+        "chips-4"
+      ]
+    },
+    {
+      "id": "chips-4",
+      "text": "electronics inventory packaging shortage",
+      "citations": [
+        "chips-0"
+      ]
+    },
+    {
+      "id": "energy-0",
+      "text": "solar photovoltaic renewable power",
+      "citations": [
+        "energy-1"
+      ]
+    },
+    {
+      "id": "energy-1",
+      "text": "wind turbine electricity grid",
+      "citations": [
+        "energy-2"
+      ]
+    },
+    {
+      "id": "energy-2",
+      "text": "battery storage lithium charging",
+      "citations": [
+        "energy-3"
+      ]
+    },
+    {
+      "id": "energy-3",
+      "text": "natural gas pipeline generation",
+      "citations": [
+        "energy-4"
+      ]
+    },
+    {
+      "id": "energy-4",
+      "text": "utility transmission clean energy",
+      "citations": [
+        "energy-0"
+      ]
+    },
+    {
+      "id": "banking-0",
+      "text": "bank deposit interest savings",
+      "citations": [
+        "banking-1"
+      ]
+    },
+    {
+      "id": "banking-1",
+      "text": "credit lending loan risk",
+      "citations": [
+        "banking-2"
+      ]
+    },
+    {
+      "id": "banking-2",
+      "text": "mortgage housing repayment collateral",
+      "citations": [
+        "banking-3"
+      ]
+    },
+    {
+      "id": "banking-3",
+      "text": "payment card transaction merchant",
+      "citations": [
+        "banking-4"
+      ]
+    },
+    {
+      "id": "banking-4",
+      "text": "investment capital liquidity regulation",
+      "citations": [
+        "banking-0"
+      ]
+    },
+    {
+      "id": "health-0",
+      "text": "hospital patient clinical care",
+      "citations": [
+        "health-1"
+      ]
+    },
+    {
+      "id": "health-1",
+      "text": "medicine pharmaceutical drug trial",
+      "citations": [
+        "health-2"
+      ]
+    },
+    {
+      "id": "health-2",
+      "text": "surgery diagnostic medical imaging",
+      "citations": [
+        "health-3"
+      ]
+    },
+    {
+      "id": "health-3",
+      "text": "vaccine immune disease prevention",
+      "citations": [
+        "health-4"
+      ]
+    },
+    {
+      "id": "health-4",
+      "text": "nursing healthcare insurance treatment",
+      "citations": [
+        "health-0"
+      ]
+    }
+  ]
+}

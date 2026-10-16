@@ -1,0 +1,17 @@
+topology,nodes,algorithm,seconds
+scale_free,25,dijkstra,6.733899999744608e-05
+scale_free,25,networkx_dijkstra,0.00029593700014629576
+scale_free,25,betweenness,0.0014327159999538708
+scale_free,25,networkx_betweenness,0.0019050329999572568
+scale_free,25,criticality,0.05648204999988593
+scale_free,50,dijkstra,0.00019582899994929903
+scale_free,50,networkx_dijkstra,6.791999999222753e-05
+scale_free,50,betweenness,0.0036807050000788877
+scale_free,50,networkx_betweenness,0.006504023999923447
+scale_free,50,criticality,0.19515577299989673
+scale_free,100,dijkstra,0.0001521850001608982
+scale_free,100,networkx_dijkstra,0.0001532960000076855
+scale_free,100,betweenness,0.015529830999867045
+scale_free,100,networkx_betweenness,0.03376051999998708
+scale_free,100,criticality,1.3152389249999032
+100x100_grid,10000,dijkstra,0.08812875000012355

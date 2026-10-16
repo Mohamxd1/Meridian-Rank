@@ -1,0 +1,21 @@
+query,keyword_precision_at_10,ppr_precision_at_10
+semiconductor,0.1,0.5
+supplier disruption,0.1,0.5
+processor design,0.1,0.5
+foundry production,0.1,0.5
+electronics inventory,0.1,0.5
+solar power,0.1,0.5
+wind turbine,0.1,0.5
+battery storage,0.1,0.5
+natural gas,0.1,0.5
+utility transmission,0.1,0.5
+bank deposit,0.1,0.5
+credit lending,0.1,0.5
+mortgage housing,0.1,0.5
+payment card,0.1,0.5
+investment capital,0.1,0.5
+hospital patient,0.1,0.5
+medicine pharmaceutical,0.1,0.5
+surgery diagnostic,0.1,0.5
+vaccine immune,0.1,0.5
+nursing healthcare,0.1,0.5

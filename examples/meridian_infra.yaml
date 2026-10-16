@@ -1,0 +1,17 @@
+# Illustrative architecture from the design; verify against deployment inventory.
+name: meridian-infra
+directed: false
+nodes: [client, cloudflare, api, worker, postgres, redis, r2, openai, anthropic, stripe, resend, sentry]
+links:
+  - {src: client, dst: cloudflare, bandwidth_mbps: 1000, latency_ms: 20}
+  - {src: cloudflare, dst: api, bandwidth_mbps: 1000, latency_ms: 5}
+  - {src: api, dst: postgres, bandwidth_mbps: 10000, latency_ms: 1}
+  - {src: api, dst: redis, bandwidth_mbps: 10000, latency_ms: 1}
+  - {src: api, dst: worker, bandwidth_mbps: 10000, latency_ms: 1}
+  - {src: worker, dst: postgres, bandwidth_mbps: 10000, latency_ms: 1}
+  - {src: worker, dst: r2, bandwidth_mbps: 1000, latency_ms: 10}
+  - {src: worker, dst: openai, bandwidth_mbps: 1000, latency_ms: 80}
+  - {src: worker, dst: anthropic, bandwidth_mbps: 1000, latency_ms: 80}
+  - {src: api, dst: stripe, bandwidth_mbps: 1000, latency_ms: 60}
+  - {src: api, dst: resend, bandwidth_mbps: 1000, latency_ms: 60}
+  - {src: api, dst: sentry, bandwidth_mbps: 1000, latency_ms: 60}
